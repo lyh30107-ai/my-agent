@@ -3,7 +3,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-st.title("우리 회사 챗봇")
+st.title("chatbot")
 
 page_1=st.Page("page_1.py",title='1 페이지')
 page_2=st.Page("page_2.py",title='2 페이지')
